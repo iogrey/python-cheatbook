@@ -2,5 +2,8 @@ Python cheats
 ===============================
 
 
-List 
+List
 ----
+```
+list = list[start : end : ±step]
+```
