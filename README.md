@@ -1,1 +1,3 @@
-# python-cheatbook
+Python cheats
+===============================
+
