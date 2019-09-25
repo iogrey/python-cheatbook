@@ -26,5 +26,20 @@ list = list[start : end : ±step]
 list = [1,2,3,1,4,2,1,5,6,1]
 print(max(set(list), key=list.count))
 ```
+```
+Remove duplicate from list :
 
+list = [1,2,3,1,4,2,1,5,6,1]
+print(list(set(list)))
+```
 
+Numbers
+----
+
+```
+>>>  round(1.4)
+1
+>>>  from math import ceil
+>>>  ceil(1.4)
+2
+```
