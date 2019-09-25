@@ -21,7 +21,10 @@ methods : ['__add__', '__class__', '__contains__', '__delattr__', '__delitem__',
 list = list[start : end : ±step]
 ```
 ```
-Most repative number in list 
+##### Most repative number in list :
+
 list = [1,2,3,1,4,2,1,5,6,1]
 print(max(set(list), key=list.count))
 ```
+
+
