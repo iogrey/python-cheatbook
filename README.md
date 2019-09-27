@@ -59,6 +59,16 @@ Remove duplicate from list :
 list = [1,2,3,1,4,2,1,5,6,1]
 print(list(set(list)))
 ```
+String
+----
+
+```
+Find number from string
+
+>>> word = 'My ages is 24'
+>>> [int(i) for i in word.split() if i.isdigit()] 
+[24]
+```
 
 Numbers
 ----
@@ -72,6 +82,7 @@ Numbers
 ```
 ```
 Swipe numbers
+
 >>> a,b = 1,2 # a=1, b=2
 >>> a,b = b,a # a=2, b=1
 ```
