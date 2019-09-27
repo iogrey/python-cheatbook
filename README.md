@@ -70,3 +70,8 @@ Numbers
 >>>  ceil(1.4)
 2
 ```
+```
+Swipe numbers
+>>> a,b = b,a
+
+```
