@@ -73,23 +73,23 @@ List count() and index()
 ```
 
 ```
- Create a list of 2-tuples like (number, square)
+Create a list of 2-tuples like (number, square)
  
- >>> [(x, x**2) for x in range(6)]
- [(0, 0), (1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
+>>> [(x, x**2) for x in range(6)]
+[(0, 0), (1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
 
- Listcomp combines
+Listcomp combines
 
- >>> [(i,j) for i in range(3) for j in range(i+i)] 
- [(1, 0), (1, 1), (2, 0), (2, 1), (2, 2), (2, 3)]
+>>> [(i,j) for i in range(3) for j in range(i+i)] 
+[(1, 0), (1, 1), (2, 0), (2, 1), (2, 2), (2, 3)]
 
- >>> # It’s equivalent to
- >>> list = []
- >>> for i in range(3): 
-   ...:     for j in range(i+i): 
+>>> # It’s equivalent to
+>>> list = []
+>>> for i in range(3): 
+...:     for j in range(i+i): 
    ...:         list.append((i,j))   
- >>> list
- [(1, 0), (1, 1), (2, 0), (2, 1), (2, 2), (2, 3)]
+>>> list
+[(1, 0), (1, 1), (2, 0), (2, 1), (2, 2), (2, 3)]
 ```
 String
 ----
