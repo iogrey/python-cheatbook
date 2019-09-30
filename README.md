@@ -79,10 +79,12 @@ List count() and index()
  [(1, 0), (1, 1), (2, 0), (2, 1), (2, 2), (2, 3)]
 
  >>> # It’s equivalent to
-
+ >>> list = []
  >>> for i in range(3): 
    ...:     for j in range(i+i): 
    ...:         list.append((i,j))   
+>>> list
+ [(1, 0), (1, 1), (2, 0), (2, 1), (2, 2), (2, 3)]
 ```
 String
 ----
