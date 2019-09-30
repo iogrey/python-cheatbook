@@ -68,7 +68,7 @@ List count() and index()
 
 >>> list.index('charizard')
 3
->>> list.index('charizard', 4)
+>>> list.index('charizard', 4)  # Find next charizard starting a position 4
 6
 ```
 String
