@@ -71,6 +71,19 @@ List count() and index()
 >>> list.index('charizard', 4)  # Find next charizard starting a position 4
 6
 ```
+
+```
+ Listcomp combines
+
+ >>> [(i,j) for i in range(3) for j in range(i+i)] 
+ [(1, 0), (1, 1), (2, 0), (2, 1), (2, 2), (2, 3)]
+
+ >>> # It’s equivalent to
+
+ >>> for i in range(3): 
+   ...:     for j in range(i+i): 
+   ...:         list.append((i,j))   
+```
 String
 ----
 
