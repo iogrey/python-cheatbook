@@ -32,7 +32,7 @@ Namespaces are one honking great idea -- let's do more of those!
 List
 ----
 ```
-class : <class 'list'>
+>>> class : <class 'list'>
 ```
 ```
 methods : ['__add__', '__class__', '__contains__', '__delattr__', '__delitem__', 
@@ -45,25 +45,37 @@ methods : ['__add__', '__class__', '__contains__', '__delattr__', '__delitem__',
  	'pop', 'remove', 'reverse', 'sort']
 ```
 ```
-list = list[start : end : ±step]
+>>> list = list[start : end : ±step]
 ```
 ```
 Most repative number in list :
 
-list = [1,2,3,1,4,2,1,5,6,1]
-print(max(set(list), key=list.count))
+>>> list = [1,2,3,1,4,2,1,5,6,1]
+>>> print(max(set(list), key=list.count))
 ```
 ```
 Remove duplicate from list :
 
-list = [1,2,3,1,4,2,1,5,6,1]
-print(list(set(list)))
+>>> list = [1,2,3,1,4,2,1,5,6,1]
+>>> print(list(set(list)))
+```
+```
+List count() and index()
+
+>>> list = ['pikachu', 'meowth', 'mew', 'charizard', 'eevee', 'meowth', 'charizard'] 
+>>> list.count('pikachu')
+1
+
+>>> list.index('charizard')
+3
+>>> list.index('charizard', 4)
+6
 ```
 String
 ----
 
 ```
-Find number from string
+Find number in string
 
 >>> word = 'My ages is 24'
 >>> [int(i) for i in word.split() if i.isdigit()] 
