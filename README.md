@@ -1,5 +1,5 @@
 Python cheats
-===============================
+	===============================
 
 #### The Zen of Python, by Tim Peters
 
@@ -73,6 +73,11 @@ List count() and index()
 ```
 
 ```
+ Create a list of 2-tuples like (number, square)
+ 
+ >>> [(x, x**2) for x in range(6)]
+ [(0, 0), (1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
+
  Listcomp combines
 
  >>> [(i,j) for i in range(3) for j in range(i+i)] 
@@ -83,7 +88,7 @@ List count() and index()
  >>> for i in range(3): 
    ...:     for j in range(i+i): 
    ...:         list.append((i,j))   
->>> list
+ >>> list
  [(1, 0), (1, 1), (2, 0), (2, 1), (2, 2), (2, 3)]
 ```
 String
